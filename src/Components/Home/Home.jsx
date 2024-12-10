@@ -1,5 +1,6 @@
 import React from "react";
 import avatarImg from "../../assets/7358602-removebg-preview.png";
+import ShinyButton from "./ShinyButton";
 
 
 const Home = () => {
@@ -34,7 +35,7 @@ const NeuButton = () => {
       </button>
   );
 };
-
+{/* <ShinyButton>Register</ShinyButton> */}
 
 
 export default Home;

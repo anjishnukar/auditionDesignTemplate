@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body{
     background-color: #171d32;
 }
@@ -25,8 +26,8 @@ body{
   
   .hoverText:hover + .hoverText + .hoverText {
     font-weight: 300;
+    
   }
-  
   /* To the left */
   .hoverText:has(+ .hoverText:hover) {
     font-weight: 500;
@@ -36,3 +37,4 @@ body{
   .hoverText:has(+ .hoverText + .hoverText:hover) {
     font-weight: 300;
   }
+

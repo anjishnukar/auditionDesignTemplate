@@ -5,6 +5,7 @@ import Footer from "./Components/Footer/Footer"
 import Home from "./Components/Home/Home"
 import Navbar from "./Components/Navbar/Navbar"
 import Projects from "./Components/Projects/Projects"
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
 
 
 
