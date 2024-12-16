@@ -1,4 +1,5 @@
 import React from "react";
+import Spline from '@splinetool/react-spline'
 import avatarImg from "../../assets/7358602-removebg-preview.png";
 import ShinyButton from "./ShinyButton";
 
@@ -7,7 +8,7 @@ const Home = () => {
   return (
     <div className="text-white flex w-full justify-between items-start p-10 md:p-20">
       <div className="md:w-2/4 md:pt-10 flex-row justify-center items-center">
-        <h1 className="text-xl md:text-8xl font-bold flex leading-normal tracking-tight">
+        <h1 className="bg-gradient-to-br from-pink-500 to-purple-500 bg-clip-text text-transparent text-xl md:text-8xl font-bold flex leading-normal tracking-tight">
           Welcome to EDC Auditions
         </h1>
         <p className="text-sm md:text-2xl tracking-tight">
@@ -22,7 +23,8 @@ const Home = () => {
         </div>
       </div>
       <div>
-        <img className="" src={avatarImg} alt="" />
+        {/* <img className="" src={avatarImg} alt="" /> */}
+        <Spline scene='https://prod.spline.design/LRXaELYU-Z-GPmeU/scene.splinecode'/>
       </div>
     </div>
   );
