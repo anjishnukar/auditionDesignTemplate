@@ -2,7 +2,8 @@ import React from 'react'
 
 const Radio = () => {
   return (
-    <div className="w-96 bg-white mt-2 shadow-lg rounded-lg p-6">
+    <div className='h-full flex items-center justify-center sticky top-10'>
+    <div className="w-96 min-h-96 justify-center items-center bg-white mt-10 shadow-lg rounded-lg p-6">
     <div className="flex items-center mb-2">
               <input
                 type="radio"
@@ -26,6 +27,7 @@ const Radio = () => {
               </label>
             </div>
           </div>
+        </div>
   )
 }
 

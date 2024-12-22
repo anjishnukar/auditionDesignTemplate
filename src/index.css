@@ -1,40 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
-
-body{
-    background-color: #171d32;
+body {
+  background-color: #171d32;
+  font-family: "Raleway", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 .hoverText {
-    transition:
-      0.35s font-weight,
-      0.35s color;
-  }
-  
-  .hoverText:hover {
-    font-weight: 900;
-    color: rgb(238, 242, 255);
-  }
-  
-  /* To the right */
-  .hoverText:hover + .hoverText {
-    font-weight: 500;
-    color: rgb(199, 210, 254);
-  }
-  
-  .hoverText:hover + .hoverText + .hoverText {
-    font-weight: 300;
-    
-  }
-  /* To the left */
-  .hoverText:has(+ .hoverText:hover) {
-    font-weight: 500;
-    color: rgb(199, 210, 254);
-  }
-  
-  .hoverText:has(+ .hoverText + .hoverText:hover) {
-    font-weight: 300;
-  }
+  transition: 0.35s font-weight, 0.35s color;
+}
 
+.hoverText:hover {
+  font-weight: 900;
+  color: rgb(238, 242, 255);
+}
+
+/* To the right */
+.hoverText:hover + .hoverText {
+  font-weight: 500;
+  color: rgb(199, 210, 254);
+}
+
+.hoverText:hover + .hoverText + .hoverText {
+  font-weight: 300;
+}
+/* To the left */
+.hoverText:has(+ .hoverText:hover) {
+  font-weight: 500;
+  color: rgb(199, 210, 254);
+}
+
+.hoverText:has(+ .hoverText + .hoverText:hover) {
+  font-weight: 300;
+}

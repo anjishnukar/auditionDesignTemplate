@@ -2,7 +2,8 @@ import React from 'react'
 
 const Checkbox = () => {
     return (
-        <div className="w-96 bg-white mt-2 shadow-lg rounded-lg p-6">
+        <div className='h-full flex items-center justify-center sticky top-10 mb-10'>
+          <div className="w-96 min-h-96 min-w-96 justify-center items-center bg-white mt-10 shadow-lg rounded-lg p-6">
           {/* <h2 className="text-2xl font-bold mb-4 text-center">Form Title</h2> */}
           <form>
           <div className="mb-4">
@@ -41,6 +42,7 @@ const Checkbox = () => {
             </div>
           </div>
           </form>
+        </div>
         </div>
     )
 }

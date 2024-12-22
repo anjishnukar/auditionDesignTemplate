@@ -10,20 +10,21 @@ import Radio from "./Components/FormComponents/Radio"
 import Checkbox from "./Components/FormComponents/Checkbox"
 import LongAnswer from "./Components/FormComponents/LongAnswer"
 import ShortAnswer from "./Components/FormComponents/ShortAnswer"
-// import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
+import QuizPage from "./Pages/QuizPage"
+import Landing from "./Pages/Landing"
+import {createBrowserRouter, RouterProvider} from "react-router-dom"
 
 
 
 function App() {
-  //Landing Page
-  // return <div className="bg-[#141619] h-auto w-full overflow-hidden">
-  //   <Navbar/>
-  //   {/* <CircleTrail/> */}
-  //   <Home/>
-  //   <About/>
-  //   <Projects/> 
-  //   <Footer/>
-  // </div>
+  // Landing Page
+  return <div className="bg-[#141619] h-auto w-full overflow-hidden">
+    <Navbar/>
+    <Home/>
+    <About/>
+    <Projects/> 
+    <Footer/>
+  </div>
 
 
   //Login Page
@@ -40,16 +41,29 @@ function App() {
   //       )
 
   //Quiz Page
-  return(
-    <div className='flex flex-col w-full h-screen'>
-      <Checkbox/>
-      <LongAnswer/>
-      <ShortAnswer/>
-      <Radio/>
-    </div>
-  )
+  // return(
+  //   <div className='flex flex-col w-full h-screen justify-center items-center mt-96'>
+  //     <Checkbox/>
+  //     <LongAnswer/>
+  //     <ShortAnswer/>
+  //     <Radio/>
+  //   </div>
+  // )
 
-
+  // const router = createBrowserRouter([
+  //   {
+  //     path: "/",
+  //     element: <Landing/>
+  //   },
+  //   // {
+  //   //   path: "/login",
+  //   //   element: 
+  //   // }
+  //   {
+  //     path:"/quiz",
+  //     element: <QuizPage/>
+  //   }
+  // ])
   
 }
 

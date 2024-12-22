@@ -22,10 +22,14 @@ const Home = () => {
           <NeuButton/>         
         </div>
       </div>
-      <div>
-        {/* <img className="" src={avatarImg} alt="" /> */}
-        <Spline scene='https://prod.spline.design/LRXaELYU-Z-GPmeU/scene.splinecode'/>
-      </div>
+      <Spline scene="https://prod.spline.design/u7tzvWFnnOFuyi3f/scene.splinecode"/>
+      {/* <Spline scene="https://prod.spline.design/LRXaELYU-Z-GPmeU/scene.splinecode" /> */}
+      {/* <Spline scene='https://prod.spline.design/KSEaa9yRPvlJVI-Y/scene.splinecode'/> */}
+      {/* <div>
+        <img className="" src={avatarImg} alt="" />
+        <Spline scene="https://prod.spline.design/LRXaELYU-Z-GPmeU/scene.splinecode" />
+          
+      </div> */}
     </div>
   );
 };
